@@ -27,3 +27,8 @@ export const cardsData = [
     position: "Co-Founder, Opulent Living Group",
   },
 ];
+
+export const cardsSet = [
+  [cardsData[0], cardsData[1], cardsData[2]],
+  [cardsData[2], cardsData[0], cardsData[1]],
+];

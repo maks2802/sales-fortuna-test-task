@@ -1,6 +1,72 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  padding: 0 106px;
+  overflow: hidden;
+}
+
 .list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
+  margin-bottom: 39px;
+}
+
+.btnLeft,
+.btnRight {
+  width: 68px;
+  height: 68px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 50%;
+  stroke-width: 1px;
+  stroke: #d1cfcf;
+  cursor: pointer;
+  color: #707070;
+  font-size: 48px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnLeft {
+  left: 10px;
+}
+
+.btnRight {
+  right: 10px;
+}
+
+.btnLeft:hover,
+.btnRight:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.dotsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.activeDot {
+  background-color: #4b4b4b;
 }

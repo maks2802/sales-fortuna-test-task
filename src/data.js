@@ -26,9 +26,31 @@ export const cardsData = [
     name: "Alexander Reed",
     position: "Co-Founder, Opulent Living Group",
   },
-];
-
-export const cardsSet = [
-  [cardsData[0], cardsData[1], cardsData[2]],
-  [cardsData[2], cardsData[0], cardsData[1]],
+  {
+    id: 4,
+    logoSrc: "/img/logo2.jpg",
+    logoMargin: { marginTop: "47px", marginBottom: "39px" },
+    text: "Sales Fortuna has made sales so much easier for us. It saves time simplifies the whole process, and helps us land more deals without extra hassle.",
+    portraitSrc: "/img/card2.jpg",
+    name: "Olivia Hayes",
+    position: "Owner, Starlight Creations",
+  },
+  {
+    id: 5,
+    logoSrc: "/img/logo3.jpg",
+    logoMargin: { marginTop: "48px", marginBottom: "21px" },
+    text: "Sales Fortuna has simplified our lead generation, helping us attract qualified prospects effortlessly and drive consistent growth.",
+    portraitSrc: "/img/card3.jpg",
+    name: "Alexander Reed",
+    position: "Co-Founder, Opulent Living Group",
+  },
+  {
+    id: 6,
+    logoSrc: "/img/logo1.jpg",
+    logoMargin: { marginTop: "20px", marginBottom: "20px" },
+    text: "Sales Fortuna made managing sales easier and helped us focus on customers. Its tools have been crucial for our growth and client satisfaction.",
+    portraitSrc: "/img/card1.jpg",
+    name: "Ethan Morgan",
+    position: "Founder and CEO, Serene Living Products",
+  },
 ];

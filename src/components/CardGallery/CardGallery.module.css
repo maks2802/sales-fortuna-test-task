@@ -81,7 +81,8 @@
     stroke: #d1cfcf;
     cursor: pointer;
     color: #707070;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     z-index: 10;
     display: flex;
     align-items: center;
@@ -96,9 +97,18 @@
     right: 10px;
   }
 
-  .btnLeft:hover,
+  .btnLeft:hover {
+    background: rgba(255, 255, 255, 1);
+    transform: translateY(-50%) translateX(8px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    color: #4b4b4b;
+  }
+
   .btnRight:hover {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 1);
+    transform: translateY(-50%) translateX(-8px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    color: #4b4b4b;
   }
 }
 
